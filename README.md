@@ -2,7 +2,7 @@
 
 # Installation
 
-- install contentful `npm in --save --save-exact contentful`
+- install contentful `npm install --save --save-exact contentful`
 - delete the folder `./src/app/app/NotFound`
 - change `./src/app/app/routes.ts` to
 
@@ -31,7 +31,7 @@ export const AppRoutes: RouteConfig[] = [
   },
 ];
 ```
-- copy the contents of this repository into your vue-starter project
+- copy the contents of the `src` directory of this repository into your vue-starter project
 
 # Create Contentful Models
 
